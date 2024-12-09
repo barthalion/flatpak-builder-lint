@@ -79,7 +79,7 @@ and on external tools.
 
 The following system dependencies must be installed:
 
-- `libgirepository1.0-dev, gir1.2-ostree-1.0`
+- `libgirepository1.0-dev, gir1.2-ostree-1.0, gir1.2-appstream-1.0`
 - `flatpak-builder` for validating flatpak-builder manifests
 - `appstreamcli` from `org.flatpak.Builder` for validating MetaInfo files
 ```sh
@@ -93,7 +93,7 @@ exec flatpak run --branch=stable --command=appstreamcli org.flatpak.Builder ${@}
 Debiab/Ubuntu:
 
 ```
-# apt install git appstream flatpak-builder libgirepository1.0-dev gir1.2-ostree-1.0 libcairo2-dev desktop-file-utils
+# apt install git appstream flatpak-builder libgirepository1.0-dev gir1.2-ostree-1.0 gir1.2-appstream-1.0 libcairo2-dev desktop-file-utils
 ```
 
 ArchLinux:
