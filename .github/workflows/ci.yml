@@ -113,7 +113,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq flatpak flatpak-builder curl dbus-daemon \
             libgirepository1.0-dev gir1.2-ostree-1.0 gzip xmlstarlet \
-            libcairo2-dev
+            libcairo2-dev gir1.2-appstream-1.0
 
       - name: Setup Poetry
         run: |
